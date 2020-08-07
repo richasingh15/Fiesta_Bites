@@ -45,6 +45,19 @@ Date DATE
 );
 
 
+--Table OrderHistory to show use of Triggers
+
+CREATE TABLE OrderDetailHistory
+(OrderID VARCHAR(30) PRIMARY KEY,
+TotalAmount FLOAT,
+AmountPaid FLOAT,
+OrderStatus VARCHAR(10),
+Quantity INT,
+Date DATE
+);
+
+
+
 CREATE TABLE DeliveryDriver
 (DeliveryManID VARCHAR(30) PRIMARY KEY,
 DeliveryManName VARCHAR(50),
