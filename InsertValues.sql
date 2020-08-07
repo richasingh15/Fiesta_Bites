@@ -100,6 +100,9 @@ VALUES('01',100.0,100.0,'Completed', 1, '2020-07-28'),
 ('09',60.0,60.0,'Completed', 1, '2020-07-24'),
 ('010',55.0,55.0,'Completed', 2, '2020-07-24');
 
+INSERT INTO OrderDetails(OrderID, TotalAmount, AmountPaid, OrderStatus, Quantity, Date)
+VALUES('015',100.0,100.0,'Completed', 1, '2020-07-31');
+
 
 
 INSERT INTO DeliveryDriver(DeliveryManID, DeliveryManName, DeliveryManEmail, DeliveryManPhone, City)
